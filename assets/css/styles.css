@@ -1,0 +1,254 @@
+html,body{
+	font-family: Sato, sans-serif;
+	overflow-x: hidden;
+}
+
+/*navbar*/
+.nav-item{
+	margin-left: 30px;
+}
+@media (max-width: 786px){
+	.nav-item{
+		margin-left: 0px;
+	}
+}
+.navbar .navbar-nav .nav-item button.header-button{
+	background-color: darkblue;
+	padding: 3px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.navbar .navbar-nav .nav-link{
+    color: whitesmoke;
+}
+
+/*sections*/
+.section-1{
+	color: darkblue;
+	background-color: #eef0f4;
+}
+img{
+	border-radius: 10px;
+}
+img.five{
+	border-radius: 0px;
+}
+.one{
+	margin-top: 50px;
+}
+.p-one{
+	font-size: 20px;
+}
+.page-link{
+	background-color: darkblue;
+	padding: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: -15px;
+	color: whitesmoke !important;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+.page-link:hover{
+	color: whitesmoke;
+	background-color: darkblue;
+	opacity: 0.7;
+	padding-right: 30px;
+}
+.page-link-2{
+	background-color: whitesmoke;
+	padding: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: -15px;
+	color: darkblue; !important;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+.page-link-2:hover{
+	text-decoration: none;
+	opacity: 0.7;
+	padding-right: 30px;
+}
+@media (max-width: 787px){
+	.two{
+		height: 100%;
+	}
+	.one h1{
+		font-size: 40px;
+	}
+	h1.four{
+		font-size: 30px;
+	}
+	h1.five{
+		font-size: 50px;
+	}
+	.p-one{
+		font-size: 15px;
+	}
+}
+@media (max-width: 600px){
+	.two{
+		height: 100%;
+	}
+	.one h1{
+		font-size: 30px;
+	}
+	h1.four{
+		font-size: 25px;
+	}
+	h1.five{
+		font-size: 50px;
+	}
+	.p-one{
+		font-size: 15px;
+	}
+}
+.section-2{
+	background-color: darkblue;
+}
+.section-3{
+	color: darkblue;
+	margin-top: 80px;
+}
+.section-4{
+	margin-top: 60px;
+	color: darkblue;
+	background-color: #eef0f4;
+}
+.grid-container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+	'card1 card2 card3';
+}
+.card{
+	color: darkblue;
+	border-radius: 10px;
+}
+.card-1{grid-area: card1; position: relative;}
+.card-2{grid-area: card2; position: relative;}
+.card-3{grid-area: card3; position: relative;}
+@media (max-width: 600px){
+	.grid-container{
+		grid-template-areas: 
+		'card1'
+		'card2'
+		'card3';
+
+	}
+}
+.section-5{
+	margin-top: 60px;
+	color: whitesmoke;
+	background-color: darkblue;
+}
+.fixed-bg {
+  background-image: url("../images/bg.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 70px;
+  font-weight: bold;
+}
+.fixed-bg p{
+	width: 100%;
+	margin-top: 100px; 
+}
+@media (max-width: 600px){
+	.fixed-bg{
+		font-size: 50px;
+	}
+}
+
+.section-6{
+	margin-top: 60px;
+	background-image: url('../images/bg-1.jpeg');
+	background-position: center center;
+	background-size: cover;
+}
+.six{
+	background-color: #eef0f4;
+	color: darkblue;
+	border-radius: 10px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+input.form-control{
+	padding: 25px;
+}
+.seven{
+	position: absolute;
+	top: 500px;
+	left: 7px;
+	padding:  20px;
+	border-radius: 10px;
+	color: darkblue;
+}
+@media (max-width: 1000px){
+	.seven{
+		position: absolute;
+		width: 90%;
+		top: 250px;
+		left: 15px;
+		padding:  0px;
+		border-radius: 10px;
+		color: darkblue;
+	}
+}
+@media (max-width: 800px){
+	.seven{
+		position: absolute;
+		width: 90%;
+		top: 150px;
+		left: 15px;
+		padding:  0px;
+		border-radius: 10px;
+		color: darkblue;
+	}
+}
+@media (max-width: 600px){
+	.seven{
+		position: absolute;
+		width: 90%;
+		top: 600px;
+		left: 20px;
+		padding:  0px;
+		border-radius: 10px;
+		color: darkblue;
+	}
+}
+
+footer{
+	background-color: darkblue;
+	color: whitesmoke;
+}
+.eight{
+	margin-top: 60px;
+}
+.nine{
+	list-style: none;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: -40px;	
+}
+.ten{
+	color: whitesmoke !important;
+}
+/*anchor*/
+a:link{
+	color: darkblue;
+}
+a:visited{
+	color: darkblue;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+	color: lightblue;
+	text-decoration: underline	;
+}
